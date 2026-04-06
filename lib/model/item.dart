@@ -23,10 +23,9 @@ class Item {
   }
 
   //Firestore document to dart object
-  factory Item.fromDocument(DocumentSnapshot doc) {
-    final data = doc.data() as Map<String, dynamic>;
+  factory Item.fromMap(String id, Map<String, dynamic> data) {
     return Item(
-      id: doc.id,
+      id: id,
       name: data['name'],
       quantity: data['quantity'],
       price: data['price'],
