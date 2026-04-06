@@ -3,6 +3,7 @@ import 'package:firebase_core/firebase_core.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:inventory_app/model/item.dart';
 import 'package:inventory_app/view/item_form.dart';
+import 'package:inventory_app/model/item_list.dart';
 import 'firebase_options.dart';
 
 void main() async {
@@ -24,7 +25,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         colorScheme: .fromSeed(seedColor: const Color.fromARGB(255, 230, 158, 200)),
       ),
-      home: ItemForm(),
+      home: ItemView(),
     );
   }
 }
