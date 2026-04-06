@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "610702554815",
+    "project_id": "mad-act12-spring26",
+    "storage_bucket": "mad-act12-spring26.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:610702554815:android:52850d3d28177a6261780a",
+        "android_client_info": {
+          "package_name": "com.example.inventory_app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAYKHR2zDqJsvSp2FwfSizd5kzQE05nz3A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
