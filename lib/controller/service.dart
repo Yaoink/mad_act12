@@ -1,7 +1,7 @@
 import 'package:cloud_firestore/cloud_firestore.dart';
 import '../model/item.dart';
 
-Class ItemService {
+class ItemService {
   final itemsRef = FirebaseFirestore.instance.collection('items');
 
   //create item

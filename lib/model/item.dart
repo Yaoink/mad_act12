@@ -28,7 +28,7 @@ class Item {
       id: id,
       name: data['name'],
       quantity: data['quantity'],
-      price: data['price'],
+      price: data['price'].toDouble(),
     );
   }
 }
